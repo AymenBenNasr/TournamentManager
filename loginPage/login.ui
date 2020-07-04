@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Login_Page</class>
+ <widget class="QWidget" name="Login_Page">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1100</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QLineEdit{
+border-style:hidden hidden hidden solid;border-bottom : 1px solid;
+border-color:#b5b5b5;
+color:white;
+}
+QLineEdit:focus{
+border-bottom : 2px solid;
+border-color:#1c77d2;
+}
+</string>
+  </property>
+  <widget class="QPushButton" name="connectButton">
+   <property name="geometry">
+    <rect>
+     <x>420</x>
+     <y>460</y>
+     <width>300</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:#1c77d2;color:white;font-size: 15px;</string>
+   </property>
+   <property name="text">
+    <string>Se Connecter</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="forgetPswd">
+   <property name="geometry">
+    <rect>
+     <x>500</x>
+     <y>520</y>
+     <width>151</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border:hidden;
+color : rgb(25,118,220);
+font-family: Arial, Helvetica, sans-serif;
+font-size: 15pxm</string>
+   </property>
+   <property name="text">
+    <string>Mot de passe oublié  ? </string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Login_Label">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>265</y>
+     <width>47</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-size:15px</string>
+   </property>
+   <property name="text">
+    <string>Login</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="pswd_label">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>350</y>
+     <width>91</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-size:15px</string>
+   </property>
+   <property name="text">
+    <string>Mot de passe</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="Show_pswd">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>410</y>
+     <width>191</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-size:15px</string>
+   </property>
+   <property name="inputMethodHints">
+    <set>Qt::ImhNone</set>
+   </property>
+   <property name="text">
+    <string>Afficher le mot de passe</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="loginIcon">
+   <property name="geometry">
+    <rect>
+     <x>510</x>
+     <y>50</y>
+     <width>121</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="textFormat">
+    <enum>Qt::AutoText</enum>
+   </property>
+   <property name="pixmap">
+    <pixmap>login.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="loginInput">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>289</y>
+     <width>811</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="echoMode">
+    <enum>QLineEdit::Normal</enum>
+   </property>
+   <property name="placeholderText">
+    <string>login</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="password_input">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>370</y>
+     <width>811</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="inputMethodHints">
+    <set>Qt::ImhHiddenText|Qt::ImhNoAutoUppercase|Qt::ImhNoPredictiveText|Qt::ImhSensitiveData</set>
+   </property>
+   <property name="echoMode">
+    <enum>QLineEdit::Password</enum>
+   </property>
+   <property name="placeholderText">
+    <string>moot de passe</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

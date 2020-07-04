@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>home</class>
+ <widget class="QWidget" name="home">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1100</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color : #2d2d2d;
+color : #b5b5b5</string>
+  </property>
+  <widget class="QWidget" name="Acceuil" native="true">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1100</width>
+     <height>600</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-style:hidden hidden hidden groove</string>
+   </property>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>59</x>
+      <y>26</y>
+      <width>141</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Calibri Light</family>
+      <pointsize>28</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Acceuil</string>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="btnEntraineur">
+    <property name="geometry">
+     <rect>
+      <x>820</x>
+      <y>340</y>
+      <width>241</width>
+      <height>191</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>15</pointsize>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QToolButton{
+ background-color : white;
+}
+QToolButton:checked,QToolButton:pressed{
+ background-color : green;
+}
+QToolButton:hover{
+ background-color :rgb(67, 147, 83)
+
+}</string>
+    </property>
+    <property name="text">
+     <string>Entraineurs</string>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="btnEquipes">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>340</y>
+      <width>241</width>
+      <height>191</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>15</pointsize>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QToolButton{
+ background-color : white;
+}
+QToolButton:checked,QToolButton:pressed{
+ background-color : green;
+}
+QToolButton:hover{
+ background-color :rgb(67, 147, 83)
+
+}</string>
+    </property>
+    <property name="text">
+     <string>Equipes</string>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="btnComp">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>130</y>
+      <width>241</width>
+      <height>191</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>15</pointsize>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QToolButton{
+ background-color : white;
+}
+QToolButton:checked,QToolButton:pressed{
+ background-color : green;
+}
+QToolButton:hover{
+ background-color :rgb(67, 147, 83)
+
+}</string>
+    </property>
+    <property name="text">
+     <string>Compétition</string>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="btnStat">
+    <property name="geometry">
+     <rect>
+      <x>820</x>
+      <y>130</y>
+      <width>241</width>
+      <height>191</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>15</pointsize>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QToolButton{
+ background-color : white;
+}
+QToolButton:checked,QToolButton:pressed{
+ background-color : green;
+}
+QToolButton:hover{
+ background-color :rgb(67, 147, 83)
+
+}</string>
+    </property>
+    <property name="text">
+     <string>Statistiques</string>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="btnArbitres">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>340</y>
+      <width>241</width>
+      <height>191</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>15</pointsize>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QToolButton{
+ background-color : white;
+}
+QToolButton:checked,QToolButton:pressed{
+ background-color : green;
+}
+QToolButton:hover{
+ background-color :rgb(67, 147, 83)
+
+}</string>
+    </property>
+    <property name="text">
+     <string>Arbitres</string>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="btnMatch">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>130</y>
+      <width>241</width>
+      <height>191</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>15</pointsize>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QToolButton{
+ background-color : white;
+}
+QToolButton:checked,QToolButton:pressed{
+ background-color : green;
+}
+QToolButton:hover{
+ background-color :rgb(67, 147, 83)
+
+}</string>
+    </property>
+    <property name="text">
+     <string>Matchs</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>30</y>
+      <width>30</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>acceuil.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="btnProfile">
+    <property name="geometry">
+     <rect>
+      <x>940</x>
+      <y>30</y>
+      <width>21</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>login.png</normaloff>login.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>30</width>
+      <height>30</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="toolButton_4">
+    <property name="geometry">
+     <rect>
+      <x>990</x>
+      <y>30</y>
+      <width>21</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="text">
+     <string>...</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>reglage (1).png</normaloff>reglage (1).png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>30</width>
+      <height>30</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="btnClose">
+    <property name="geometry">
+     <rect>
+      <x>1040</x>
+      <y>30</y>
+      <width>21</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="text">
+     <string>...</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>fermeture.png</normaloff>fermeture.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>30</width>
+      <height>30</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="btnJoueurs">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>340</y>
+      <width>241</width>
+      <height>191</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>15</pointsize>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QToolButton{
+ background-color : white;
+}
+QToolButton:checked,QToolButton:pressed{
+ background-color : green;
+}
+QToolButton:hover{
+ background-color :rgb(67, 147, 83)
+
+}</string>
+    </property>
+    <property name="text">
+     <string>Joueurs</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>130</y>
+      <width>231</width>
+      <height>181</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../projetQt/img/cp.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

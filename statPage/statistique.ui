@@ -1,0 +1,840 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1100</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color : #2d2d2d;
+color : #b5b5b5</string>
+  </property>
+  <widget class="QWidget" name="Statistique" native="true">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>-10</x>
+     <y>-10</y>
+     <width>1101</width>
+     <height>601</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <widget class="QLabel" name="labelStatistique">
+    <property name="geometry">
+     <rect>
+      <x>75</x>
+      <y>40</y>
+      <width>451</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Calibri Light</family>
+      <pointsize>36</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Statistique</string>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="btnRetourStatic">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>550</y>
+      <width>41</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border:none</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>retour.png</normaloff>retour.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>30</width>
+      <height>30</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_263">
+    <property name="geometry">
+     <rect>
+      <x>25</x>
+      <y>40</y>
+      <width>40</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>football-stats-graphic (1).png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QWidget" name="widgetBut" native="true">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>160</y>
+      <width>311</width>
+      <height>371</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border : 1px solid rgb(255, 252, 249)</string>
+    </property>
+    <widget class="QLabel" name="photoButtuer">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>70</y>
+       <width>161</width>
+       <height>181</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Calibri Light</family>
+       <pointsize>19</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>msakni1.jpg</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_170">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>280</y>
+       <width>59</width>
+       <height>15</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 0px </string>
+     </property>
+     <property name="text">
+      <string>Nom </string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_176">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>300</y>
+       <width>59</width>
+       <height>15</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 0px </string>
+     </property>
+     <property name="text">
+      <string>Prénom</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_178">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>320</y>
+       <width>59</width>
+       <height>15</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 0px </string>
+     </property>
+     <property name="text">
+      <string>Equipe</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="nomButteur">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>280</y>
+       <width>59</width>
+       <height>15</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 0px </string>
+     </property>
+     <property name="text">
+      <string>Youssef</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="prenomButteur">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>300</y>
+       <width>59</width>
+       <height>15</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 0px </string>
+     </property>
+     <property name="text">
+      <string>Msekni</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="equipeButteur">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>320</y>
+       <width>161</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 0px </string>
+     </property>
+     <property name="text">
+      <string>Espérance Tunisie</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="numButLabel">
+     <property name="geometry">
+      <rect>
+       <x>119</x>
+       <y>28</y>
+       <width>81</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>13</pointsize>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 0px 
+</string>
+     </property>
+     <property name="text">
+      <string>18 But</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="widgetGard" native="true">
+    <property name="geometry">
+     <rect>
+      <x>387</x>
+      <y>160</y>
+      <width>311</width>
+      <height>371</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border : 1px solid rgb(255, 252, 249)</string>
+    </property>
+    <widget class="QLabel" name="label_189">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>70</y>
+       <width>161</width>
+       <height>181</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Calibri Light</family>
+       <pointsize>19</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>bolbol.jpg</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="equpeGardien">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>320</y>
+       <width>161</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 0px </string>
+     </property>
+     <property name="text">
+      <string>Etoile Sportive Du Sahel</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="nomGadien">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>280</y>
+       <width>59</width>
+       <height>15</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 0px </string>
+     </property>
+     <property name="text">
+      <string>Aymen</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_191">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>320</y>
+       <width>59</width>
+       <height>15</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 0px </string>
+     </property>
+     <property name="text">
+      <string>Equipe</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_202">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>280</y>
+       <width>59</width>
+       <height>15</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 0px </string>
+     </property>
+     <property name="text">
+      <string>Nom </string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_210">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>300</y>
+       <width>59</width>
+       <height>15</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 0px </string>
+     </property>
+     <property name="text">
+      <string>Prénom</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="prenomGardien">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>300</y>
+       <width>59</width>
+       <height>15</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 0px </string>
+     </property>
+     <property name="text">
+      <string>Balbouli</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="numMatchGardien">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>30</y>
+       <width>141</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>13</pointsize>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 0px 
+</string>
+     </property>
+     <property name="text">
+      <string>25 Match 0 but </string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="widgetClass" native="true">
+    <property name="geometry">
+     <rect>
+      <x>730</x>
+      <y>160</y>
+      <width>311</width>
+      <height>371</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border : 1px solid rgb(255, 252, 249)</string>
+    </property>
+    <widget class="QLabel" name="label_214">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>20</y>
+       <width>81</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 0px</string>
+     </property>
+     <property name="text">
+      <string>Group A</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_219">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>130</y>
+       <width>81</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>13</pointsize>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 0px 
+</string>
+     </property>
+     <property name="text">
+      <string>Group B</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_220">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>240</y>
+       <width>81</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>13</pointsize>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 0px 
+</string>
+     </property>
+     <property name="text">
+      <string>Group C</string>
+     </property>
+    </widget>
+    <widget class="QListWidget" name="ListeGroupA">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>50</y>
+       <width>271</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">
+ border: 0px solid rgb(255, 255, 255)
+</string>
+     </property>
+     <item>
+      <property name="text">
+       <string>1)Etoile Sportive Du Sahel</string>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>11</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="background">
+       <brush brushstyle="NoBrush">
+        <color alpha="255">
+         <red>211</red>
+         <green>212</green>
+         <blue>105</blue>
+        </color>
+       </brush>
+      </property>
+      <property name="foreground">
+       <brush brushstyle="NoBrush">
+        <color alpha="255">
+         <red>255</red>
+         <green>255</green>
+         <blue>0</blue>
+        </color>
+       </brush>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>2)Etoile Metlaoui</string>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>11</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>3)Club Africain</string>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>11</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>4)Club Sfaxien</string>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>11</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+     </item>
+    </widget>
+    <widget class="QListWidget" name="ListeGroupB">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>160</y>
+       <width>271</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"> border: 0px solid rgb(255, 255, 255)
+</string>
+     </property>
+     <item>
+      <property name="text">
+       <string>1)Espérance Tunisie</string>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>11</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="foreground">
+       <brush brushstyle="NoBrush">
+        <color alpha="255">
+         <red>255</red>
+         <green>255</green>
+         <blue>0</blue>
+        </color>
+       </brush>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>4)Stade Gabesien</string>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>11</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>2)AS Bengerden</string>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>11</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>3)AS Marsa</string>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>11</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+     </item>
+    </widget>
+    <widget class="QListWidget" name="ListeGroupC">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>270</y>
+       <width>271</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">
+ border: 0px solid rgb(255, 255, 255)
+</string>
+     </property>
+     <item>
+      <property name="text">
+       <string>1)Club Athletic Bizerte</string>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>11</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="foreground">
+       <brush brushstyle="NoBrush">
+        <color alpha="255">
+         <red>255</red>
+         <green>255</green>
+         <blue>0</blue>
+        </color>
+       </brush>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>2)Union Sportif Monastirienne</string>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>11</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>3)AS Gabes</string>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>11</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>4)Stade Tunisien</string>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>11</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+     </item>
+    </widget>
+   </widget>
+   <widget class="QLabel" name="labelMeiBut">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>140</y>
+      <width>221</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Calibri Light</family>
+      <pointsize>19</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Meuilleur butteur</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelMeiGard">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>140</y>
+      <width>221</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Calibri Light</family>
+      <pointsize>19</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Meuilleur gardien</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelClassement">
+    <property name="geometry">
+     <rect>
+      <x>800</x>
+      <y>140</y>
+      <width>151</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Calibri Light</family>
+      <pointsize>19</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>Classement</string>
+    </property>
+   </widget>
+   <zorder>widgetClass</zorder>
+   <zorder>widgetBut</zorder>
+   <zorder>labelStatistique</zorder>
+   <zorder>btnRetourStatic</zorder>
+   <zorder>label_263</zorder>
+   <zorder>widgetGard</zorder>
+   <zorder>labelMeiBut</zorder>
+   <zorder>labelMeiGard</zorder>
+   <zorder>labelClassement</zorder>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
